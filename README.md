@@ -8,9 +8,7 @@ Program that analyzes the connectivity of Wikipedia pages from [SNAP Dataset](ht
 
 ## Directory
 
-- **entry:** Contains the `main.cpp` file, which serves as the entry point for running our algorithms on a graph. Users can choose to create a graph from the full dataset or a sample dataset provided.
-
-- **lib:** Includes the sample datasets used for the project. The full dataset is available from Stanford SNAP group at [snap.stanford.edu](https://snap.stanford.edu/data/enwiki-2013.html).
+- **entry:** Contains the `main.cpp` file, which serves as the entry point for running our algorithms on a graph. Users can choose to create a graph from the full dataset.
 
 - **src:** Contains the source code for the project. It includes two classes: `DataParser` and `Graph`. The `Graph` class represents the graph data structure and provides functions for running various algorithms. The `DataParser` class is responsible for parsing the data files and populating the graph accordingly.
 
@@ -22,7 +20,7 @@ Program that analyzes the connectivity of Wikipedia pages from [SNAP Dataset](ht
 
 The project offers the following functionality:
 
-1. **Graph Creation and Algorithms:** The `main.cpp` file allows users to interactively create a graph and run algorithms on it. Users can choose between using the full dataset or the provided sample dataset. They can select one of the available algorithms and specify parameter values. The program then executes the chosen algorithm and displays the results in the terminal. Users can either terminate the program or choose to run another algorithm.
+1. **Graph Creation and Algorithms:** The `main.cpp` file allows users to interactively create a graph and run algorithms on it. Users can run the algorithms on the full dataset. They can select one of the available algorithms and specify parameter values. The program then executes the chosen algorithm and displays the results in the terminal. Users can either terminate the program or choose to run another algorithm.
 
 2. **Graph Class:** The `Graph` class provides a data structure for representing graphs and includes functions for running algorithms on the graph structure.
 
@@ -34,7 +32,7 @@ Clone the repo in your desired repository by running:
 
 `git clone https://github.com/kpulgari/Linking-Wikipedia-Pages.git`
 
-**IMPORTANT:** To run analysis on full dataset download both files from [snap.stanford.edu](https://snap.stanford.edu/data/enwiki-2013.html) and put them in the `\lib` folder.
+**IMPORTANT:** To run analysis on full dataset download both files from [snap.stanford.edu](https://snap.stanford.edu/data/enwiki-2013.html) and put them in a folder titled `\lib` in the root of repository.
 
 To run the **main** function:
 
