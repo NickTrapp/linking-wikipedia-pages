@@ -1,0 +1,5 @@
+bin/exec
+bin/exec.dSYM
+bin/tests
+bin/tests.dSYM
+lib/
