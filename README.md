@@ -2,9 +2,7 @@
 
 Program that analyzes the connectivity of Wikipedia pages from [SNAP Dataset](https://snap.stanford.edu/data/enwiki-2013.html) using three graph algorithms: Breadth-First Search (BFS), Iterative Deepening Depth-First Search (IDDFS), and simplified PageRank.
 
-## Demo
 
-[![Linking Wikipedia Pages](https://github.com/kpulgari/Linking-Wikipedia-Pages/blob/main/images/thumbnail.png)](https://drive.google.com/file/d/1gOjSGB0JahHcqG-SETZk9mJUC08JLbgs/view)
 
 ## Directory
 
